@@ -236,7 +236,7 @@ p.regular.cabin, p.bold.cabin, p.italic.cabin {
 
 /* text styles section */
 .text-style-container li {
-  list-style:none;
+  list-style: square;
   font-size: 14px;
   padding-left: 0;
 }
