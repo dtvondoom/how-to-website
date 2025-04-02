@@ -235,6 +235,11 @@ p.regular.cabin, p.bold.cabin, p.italic.cabin {
 
 
 /* text styles section */
+.text-style-container ul {
+  padding-left: 40%;
+  width: 20%;
+}
+
 .text-style-container li {
   list-style: square;
   font-size: 14px;
