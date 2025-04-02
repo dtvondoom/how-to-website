@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bitter:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Domine:wght@400..700&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: lightslategray;
+}
+
+footer {
+  text-align: end;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Domine', serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Vollkorn', serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Bitter';
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 12px;
+  font-family: 'Inter';
+}
+
+h1, h4, .container h2, .container h3  {
+  color: #1d3030;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 1vh;
+  margin: 5vh 1vh;
+  background-color: #d0d6dc;
+  text-align: center;
+}
+
+.container p {
+  color: #131212;
+}
+
+.container a {
+  color: #f76f39;
+}
+
+.container a:hover {
+  color: #ff1493;
+}
+
+.container a:active {
+  color: #66ccff;
+}
+
+.container a:visited {
+  color: #808080;
+}
+
+.section-title {
+  margin-top: 1vh;
+  font-size: 2rem;
+}
+
+/* breadcrumb menu */
+.navigation {
+  font-family: 'Cabin', sans-serif;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #66e1f7;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.navigation li a:hover {
+  color: #ffa07a;
+}
+
+.navigation li a:active {
+  color: #0f0;
+}
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+  padding: 0 1vh;
+  white-space: nowrap;
+}
+/* end of breadcrumb menu */
+
+/* colors section */
+.color-container {
+  width: 100%;
+  text-align: center;
+}
+
+.color-container p, .color-container h3 {
+  color: #000000;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.soft-sand {
+  background-color: #e1b382;
+}
+
+.dusk-blue {
+  background-color: #6b7a8f;
+}
+
+.sea-foam {
+  background-color: #9df9ef;
+}
+
+.amber-horizon {
+  background-color: #c89666;
+}
+
+.sunset-pink {
+  background-color: #ffa8b6;
+}
+
+.deep-teal {
+  background-color: #35636e;
+}
+/* end of colors section */
+
+/* fonts section */
+.font-container {
+  text-align: center;
+}
+
+/* correcting different fonts appearing different size 
+  with the same font-size */
+p.regular.yanone-kaffeesatz, p.bold.yanone-kaffeesatz, p.italic.yanone-kaffeesatz {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+p.regular.cabin, p.bold.cabin, p.italic.cabin {
+  font-size: 16px;
+}
+
+.font-container p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+  min-height: 300px;
+  vertical-align: top;
+  margin: auto 5px;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.archivo {
+  font-family: 'Archivo';
+}
+
+.bitter {
+  margin-top: 17px;
+  font-family: 'Bitter';
+}
+
+.cabin {
+  font-family: 'Cabin';
+  margin-top: 17px;
+}
+
+.domine {
+  font-family: 'Domine';
+}
+
+.vollkorn {
+  font-family: 'Vollkorn';
+}
+
+.yanone-kaffeesatz {
+  margin-top: 25px;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+/* end of fonts section */
+
+
+
+/* text styles section */
+.text-style-container li {
+  list-style:none;
+  font-size: 14px;
+  padding-left: 0;
+}
+/* end of text styles section */
+
+/* borders section */
+.border-container {
+  text-align: center;
+}
+
+.border-panel {
+  display: inline-block;
+  width: 30%;
+  height: 20%;
+  text-align: center;
+  margin: 20px 5px;
+  padding: 5px;
+  min-height: 100px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.no-border {
+  border: none;
+}
+
+.solid-border {
+  border: 1px solid;
+}
+
+.dotted-border {
+  border: 2px dotted;
+}
+
+.dashed-border {
+  border: 2px dashed;
+}
+
+.double-border {
+  border: double;
+}
+/* end of borders section */
